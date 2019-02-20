@@ -21,6 +21,9 @@ export SAKURA_PASSWORD=BHU*9ol.;
 ```shell
 
 # f 代表强制覆盖
-sakura-cli g model/users/test user_device [f]
+
+fi-cli g model/users/test user_device [f]
+sakura-orm-cli g model/users/test user_device [f]
+gago-orm-cli g model/users/test user_device [f]
 
 ```
