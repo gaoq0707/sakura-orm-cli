@@ -1,6 +1,6 @@
 {
   "name": "sakura-orm-cli",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "佳格后端sakura orm脚手架",
   "main": "./lib/index.js",
   "bin": {

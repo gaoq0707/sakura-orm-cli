@@ -61,7 +61,6 @@ typings/
 
 bin
 publish.js
-/lib
 .DS_Store
 .idea
 .git
