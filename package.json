@@ -1,0 +1,50 @@
+{
+  "name": "sakura-orm-cli",
+  "version": "0.1.0",
+  "description": "佳格后端sakura orm脚手架",
+  "main": "./lib/index.js",
+  "bin": {
+    "fi-cli": "lib/index.js",
+    "sakura-orm-cli": "lib/index.js",
+    "gago-orm-cli": "lib/index.js"
+  },
+  "scripts": {
+    "test": "node ./lib/index.js;",
+    "postpublish": "rm -rf ./lib;",
+    "p": "npm publish",
+    "t": "npm test",
+    "b": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.azure.gagogroup.cn/project-standard/sakura-orm-cli.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "contributors": [
+    {
+      "name": "Gao Qiang",
+      "email": "gaoqiang@gagogroup.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.2",
+    "log-symbols": "^2.2.0",
+    "moment": "^2.24.0",
+    "ora": "^3.1.0",
+    "path": "^0.12.7",
+    "sakura-node-3": "^3.5.24",
+    "shell-exec": "^1.0.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gago",
+    "sakura",
+    "sakura-orm-cli",
+    "cli"
+  ]
+}
