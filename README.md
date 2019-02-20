@@ -4,7 +4,7 @@
 
 # INSTALL
 
-`npm install gago-demo-token-validator`
+`npm install sakura-orm-cli -g`
 
 # 使用方法
 
