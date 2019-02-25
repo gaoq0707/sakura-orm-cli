@@ -11,11 +11,11 @@
 1. 先设置系统环境变量
 
 ```shell
-export SAKURA_HOST=101.200.33.245;
-export SAKURA_PORT=16063;
-export SAKURA_DB=picc;
-export SAKURA_USER=gaoqiang;
-export SAKURA_PASSWORD=BHU*9ol.;
+export SAKURA_HOST=;
+export SAKURA_PORT=;
+export SAKURA_DB=;
+export SAKURA_USER=;
+export SAKURA_PASSWORD=;
 ```
 
 2. 熟悉全局变量
