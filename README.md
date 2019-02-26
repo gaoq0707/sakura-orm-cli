@@ -21,7 +21,7 @@ export SAKURA_PASSWORD=;
 2. 熟悉全局变量
 
 ```
-* fi-cli
+* fi-orm-cli
 * sakura-orm-cli
 * gago-orm-cli
 ```
